@@ -26,7 +26,7 @@ K
 
 1) clone repository and install dependencies with: npm install
   
-2) open a terminal and navigate to the directory where the othello.jar file is located- if you have not moved this file it will be located in he root directory of this project.
+2) open a terminal and navigate to the directory where the othello.jar file is located- it should be located in he root directory of this project.
 
 3) To start the server, run: java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui (The --wait-for-ui flag allows you to view the game in the UI)
    
