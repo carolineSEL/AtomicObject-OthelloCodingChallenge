@@ -20,7 +20,6 @@ K
 - Move Selection: The bot chooses the move with the highest combined score of flipped pieces and positional value.
 
 ## ⚠️Running the Project
-### Starting the Othello Game Server
 
 - Requirements: Java must be installed on your system.
 - Server Launch:
@@ -29,9 +28,12 @@ K
   
 2) open a terminal and navigate to the directory where the othello.jar file is located- if you have not moved this file it will be located in he root directory of this project.
 
-3) To start the server, run: java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui
+3) To start the server, run: java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui (The --wait-for-ui flag allows you to view the game in the UI)
+   
+4) When the server is up with the --wait-for-ui flag, you can view a visual UI of the game on your localhost at http://localhost:8080
 
-4) To connect client run: node client.js
+5) To connect client run: node client.js
+6) NOTE: If you are having issues running the server or connecting the client, please check your background processes in your task manager to make sure nothing is running on the ports. Use the command: netstat -ano | findstr :8080 to view if any other processes are running. If so, locate the PID (the fourth column that displays from the previous command), search for that PID in the Task manaer, and end the task. With this being done the program should run smoothly.
 
 - The client is set to connect to a server running on localhost at a specified port. Ensure the server is active before initiating the client.
 
