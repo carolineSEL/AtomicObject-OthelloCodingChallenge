@@ -1,7 +1,7 @@
 
 # Othello Project (Atomic)
 ##  Overview
-This project presents an AI player for the board game Othello. The bot is designed to connect to an Othello game server, interpret the game state, and make strategic moves based on an evaluation strategy.
+This project presents a simulated Othello game between a bot and random player. The bot is designed to connect to an Othello game server, interpret the game state, and make strategic moves based on an evaluation strategy.
 
 ## Recommended Software
 * Node 8.12.0
@@ -28,13 +28,16 @@ K
 
 - Requirements: Java must be installed on your system.
 - Server Launch:
-1) navigate to the directory where the othello.jar file is located- if you have not moved this file it will be located in he root directory of this project.
 
-2) Open a terminal and navigate to the directory of Othello.jar.
+1) clone repository and install dependencies with: npm install
+  
+2) navigate to the directory where the othello.jar file is located- if you have not moved this file it will be located in he root directory of this project.
 
-3) To start the server, run: java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui
+3) Open a terminal and navigate to the directory of Othello.jar.
 
-4) To connect client run: node client.js
+4) To start the server, run: java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui
+
+5) To connect client run: node client.js
 
 - The client is set to connect to a server running on localhost at a specified port. Ensure the server is active before initiating the client.
 
