@@ -31,13 +31,11 @@ K
 
 1) clone repository and install dependencies with: npm install
   
-2) navigate to the directory where the othello.jar file is located- if you have not moved this file it will be located in he root directory of this project.
+2) open a terminal and navigate to the directory where the othello.jar file is located- if you have not moved this file it will be located in he root directory of this project.
 
-3) Open a terminal and navigate to the directory of Othello.jar.
+3) To start the server, run: java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui
 
-4) To start the server, run: java -jar othello.jar --p1-type remote --p2-type random --wait-for-ui
-
-5) To connect client run: node client.js
+4) To connect client run: node client.js
 
 - The client is set to connect to a server running on localhost at a specified port. Ensure the server is active before initiating the client.
 
