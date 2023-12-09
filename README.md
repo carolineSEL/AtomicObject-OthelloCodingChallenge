@@ -3,10 +3,6 @@
 ##  Overview
 This project presents a simulated Othello game between a bot and random player. The bot is designed to connect to an Othello game server, interpret the game state, and make strategic moves based on an evaluation strategy.
 
-## Recommended Software
-* Node 8.12.0
-* NPM 6.8.0
-
 ## Strategy and Implementation
 The cornerstone of this strategy is a matrix-based evaluation system:
 
